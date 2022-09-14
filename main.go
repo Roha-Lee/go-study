@@ -19,6 +19,12 @@ func main() {
 	names := []string{"Roha", "Gru"}
 	names = append(names, "Lee")
 	fmt.Println(names)
+
+	roha := map[string]string{"roha": "gru", "crazy": "arcade"}
+	fmt.Println(roha)
+	for key, value := range roha {
+		fmt.Println(key, value)
+	}
 }
 
 func multiply(a int, b int) int {
