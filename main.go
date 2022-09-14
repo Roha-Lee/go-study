@@ -5,6 +5,12 @@ import (
 	"strings"
 )
 
+type person struct {
+	name    string
+	age     int
+	favFood []string
+}
+
 func main() {
 	fmt.Println("Hello, World!")
 	fmt.Println(multiply(2, 2))
@@ -25,6 +31,10 @@ func main() {
 	for key, value := range roha {
 		fmt.Println(key, value)
 	}
+
+	favFood := []string{"milktea", "gongcha"}
+	gru := person{name: "roha", age: 31, favFood: favFood}
+	fmt.Println(gru)
 }
 
 func multiply(a int, b int) int {
