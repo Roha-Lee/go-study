@@ -16,6 +16,9 @@ func main() {
 	superAdd(1, 3, 2, 4, 5, 6, 1)
 	fmt.Println(canIDrink(31), canIDrink(17))
 
+	names := []string{"Roha", "Gru"}
+	names = append(names, "Lee")
+	fmt.Println(names)
 }
 
 func multiply(a int, b int) int {
