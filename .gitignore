@@ -1,6 +1,6 @@
 .DS_Store
-go-settings/bin/
-go-settings/pkg/
+go-inflearn/bin/
+go-inflearn/pkg/
 # Created by https://www.toptal.com/developers/gitignore/api/go
 # Edit at https://www.toptal.com/developers/gitignore?templates=go
 
